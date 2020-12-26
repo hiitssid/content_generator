@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Generator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="main.js"></script>    
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="register">
+        <form id="register" method="post">
+        <h4>Content Generator</h4>
+        <label>Title:</label>
+        <input type="text" name="title" id="title">
+        <br><br>
+        <label>Author:</label>
+        <input type="text" name="author" id="author">
+        <br><br>
+        <label>ISBN:</label>
+        <input type="number" name="isbn" id="isbn">
+        <br><br>
+        <label>Genre:</label>
+        <input type="text" name="genre" id="genre">
+        <br><br>
+        <label>Publication:</label>
+        <input type="text" name="publication" id="publication">
+        <br><br>
+        <label>Pages:</label>
+        <input type="number" name="pages" id="pages">
+        <br><br>
+        <label>Format:</label>
+        <select name="format" id="format">
+            <option value="Paperback">Paperback</option>
+            <option value="Hardback">Hardback</option>
+        </select>
+        <br><br>
+        <input type="button" value ="RUN" onclick="myFunction()"></button>
+    </form>
+</div><!--end form-->
+</div><!--end wrapper-->
+</body>
+</html>
